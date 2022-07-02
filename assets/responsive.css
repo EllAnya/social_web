@@ -1,0 +1,51 @@
+@media (min-width: 850px) and (max-width: 1100px) {
+
+    section {
+        width: 70%;
+        float: right;
+    }
+
+    #right-column {
+        padding: 0px 15px 20px 20px;
+        width: 30%;
+    }
+
+    #left-column {
+        padding : 20px 15px 0px 20px;
+        width: 30%;
+    }
+
+}
+
+@media (max-width: 849px) {
+    
+    #right-column {
+        width: 100%;
+    }
+
+    #left-column {
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+    }
+    
+    .left-column {
+        display: none;
+    }
+
+    .right-column {
+        display: none;
+    }
+
+    .profile-section {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 849px) {
+    .mobile-links {
+        display: none;
+    }
+}

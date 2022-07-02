@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><p class="home-label"><i class="fa-solid fa-house"></i> HOME</p></a>
+
+        <a class="mobile-links" href="left-column.html">My Profile</a>
+        <a class="mobile-links" href="right-column.html">Staff</a>
+
+        <div id="header-notification">
+            <i class="fa-solid fa-bell"></i>
+            <span>3</span>
+        </div>
+
+        <div id="header-inbox">
+            <i class="fa-solid fa-inbox"></i>
+            <span> 1 </span>
+        </div>
+
+        <img id="header-avatar" src="assets/images/img_avatar.png">
+    </header>
+    
+    <aside id="right-column">
+        <div class="article-block">
+            <p class="article-title">Upcoming events</p>
+            <div class="event-image" style="background-image: url('assets/images/post-3.jpg')"></div>
+            <p>After work party</p>
+            <p>Friday 15:00</p>
+
+            <div class="dropdown">
+                <button class="blue-button btn">INFO</button>
+                <div class="dropdown-content">
+                    <p>Be nice, be useful, bring beer!</p>
+                </div>
+            </div>
+        </div>
+        <div class="article-block">
+            <p class="article-title">Friend request</p>
+            <img id="aside-img" src="assets/images/img_avatar1.png" alt="">
+            <p>Jane Doe</p>
+            <div class="btn-group">
+                <button><i class="fa-solid fa-check"></i></button>
+                <button><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+    </aside>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="assets/stylesheets.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><p class="home-label"><i class="fa-solid fa-house"></i> HOME</p></a>
+
+        <a class="mobile-links" href="left-column.html">My Profile</a>
+        <a class="mobile-links" href="right-column.html">Staff</a>
+
+        <div id="header-notification">
+            <i class="fa-solid fa-bell"></i>
+            <span>3</span>
+        </div>
+
+        <div id="header-inbox">
+            <i class="fa-solid fa-inbox"></i>
+            <span> 1 </span>
+        </div>
+
+        <img id="header-avatar" src="assets/images/img_avatar.png">
+    </header>
+
+    <aside id="left-column" class="left-column">
+        <article class="article-block">
+            <div class="article-head">
+                <a href="profile.html"><p class="article-title">My Profile</p></a>
+                <img id="uploaded-image" class="article-image" src="assets/images/img_avatar.png">
+            </div>
+
+
+            <input type="file" id="upload-image-input">
+
+            <label for="upload-image-input">
+                <p>Edit Photo<i class="fa-solid fa-user-pen"></i></p>
+            </label>
+
+            <!-- <p class="article-info"><i class="fa-solid fa-user-tie"></i> Front-end Developer</p>
+            <p class="article-info"><i class="fa-solid fa-location-dot"></i> Veles, Macedonia</p>
+            <p class="article-info"><i class="fa-solid fa-calendar-day"></i> 23 April 1994</p> -->
+        </article>
+
+        <article class="article-block bg-blue">
+            <ul class="nav-list">
+                <li><a href="#">My posts</a></li>
+                <li><a href="#">My photos</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+        </article>
+    </aside>
+    <section class="profile-section">
+        <div class="form">
+        <div class="left-form">
+            <form action="">
+                <label for="name">Name</label><br>
+                <input type="text" name="name" placeholder="John"><br><br>
+                <label for="birth">Date of Birth</label><br>
+                <input type="date" name="birth" placeholder="23/04/1994"><br><br>
+                <label for="profession">Profession</label><br>
+                <input type="text" name="profession" placeholder="Web Developer"><br><br>
+                <label for="telephone">Telephone</label><br>
+                <input type="tel" name="telephone" placeholder="+389 111 222 333"><br><br>
+            </form>
+        </div>
+        <div class="right-form">
+            <form action="">
+                <label for="surname">Surname</label><br>
+                <input type="text" name="surname" placeholder="Doe"><br><br>
+                <label for="address">Address</label><br>
+                <input type="text" name="address" placeholder="Blagoj Gjorev 89"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" placeholder="john_doe@email.com"><br><br>
+                <div class="gender">
+                <label for="gender">Gender</label><br>
+                <input type="radio" name="gender" value="male">
+                <label>Male</label>
+                <input type="radio" name="gender" value="female">
+                <label>Female</label>
+                </div>
+                <button type="submit">SAVE</button>
+            </form> 
+        </div>  
+        </div> 
+    </section>
+
+    <script src="assets/main.js"></script>
+</body>
+</html>
